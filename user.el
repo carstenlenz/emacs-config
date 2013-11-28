@@ -37,6 +37,10 @@
 ;; (set-face-attribute 'default nil :height 140)
 (load-theme 'tomorrow-night-bright t)
 
+
+;; Font
+(set-face-attribute 'default nil :font "Consolas-11")
+
 ;; Flyspell often slows down editing so it's turned off
 (remove-hook 'text-mode-hook 'turn-on-flyspell)
 
