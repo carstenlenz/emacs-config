@@ -3,3 +3,5 @@ backups
 *.tar
 .smex-items
 auto-save-list
+elpa/
+places
