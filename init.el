@@ -1,3 +1,6 @@
+
+(server-start)
+
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
@@ -20,6 +23,7 @@
                       clojure-test-mode
                       cider
                       groovy-mode
+                      rainbow-delimiters
                       )
   "A list of packages to ensure are installed at launch.")
 
