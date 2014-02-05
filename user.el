@@ -89,3 +89,9 @@
           '(lambda ()
              (require 'groovy-electric)
              (groovy-electric-mode)))
+
+(defun my-c-mode-hook () 
+   (setq indent-tabs-mode nil 
+         c-basic-offset 4)) 
+(add-hook 'c-mode-common-hook 'my-c-mode-hook)
+
