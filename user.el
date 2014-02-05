@@ -95,3 +95,4 @@
          c-basic-offset 4)) 
 (add-hook 'c-mode-common-hook 'my-c-mode-hook)
 
+(setq-default fill-column 100)
