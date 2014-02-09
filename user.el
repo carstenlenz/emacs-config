@@ -39,7 +39,7 @@
 
 
 ;; Font
-(set-face-attribute 'default nil :font "Consolas-11")
+(set-face-attribute 'default nil :font "Consolas-13")
 
 ;; UI
 (global-linum-mode t)
