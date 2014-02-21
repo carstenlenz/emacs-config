@@ -12,7 +12,6 @@
 
 (setq initial-frame-alist '((top . 0) (left . 0) (width . 150) (height . 45)))
 
-
 ;; Place downloaded elisp files in this directory. You'll then be able
 ;; to load them.
 ;;
@@ -83,6 +82,9 @@
 (add-to-list 'auto-mode-alist '("\.groovy$" . groovy-mode))
 (add-to-list 'auto-mode-alist '("\.gradle$" . groovy-mode))
 (add-to-list 'interpreter-mode-alist '("groovy" . groovy-mode))
+
+(add-to-list 'auto-mode-alist '("\.ad$" . adoc-mode))
+(add-to-list 'auto-mode-alist '("\.adoc$" . adoc-mode))
 
 ;;; make Groovy mode electric by default.
 (add-hook 'groovy-mode-hook
